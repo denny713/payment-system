@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: payment-system
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/spp?useSSL=false&useLegacyDatetimeCode=false&characterEncoding=utf8
+    username: root
+    password: p@ssw0rd
+  jpa:
+    hibernate:
+      ddl-auto: none
+    show-sql: true
+server:
+  port: 7020
+  servlet:
+    context-path: /
