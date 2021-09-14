@@ -13,3 +13,5 @@ server:
   port: 7020
   servlet:
     context-path: /
+    session:
+      timeout: 1
